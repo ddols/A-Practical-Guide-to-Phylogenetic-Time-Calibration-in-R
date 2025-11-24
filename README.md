@@ -6,6 +6,8 @@ Time-Calibration in R
 - [Step 1: Load Library and Set Working Directory](#step-1-load-library-and-set-working-directory)
 - [Step 2: Load and Re-root the Phylogenetic Tree](#step-2-load-and-re-root-the-phylogenetic-tree)
 - [Step 4: Perform Time-Calibration with `chronos`](#step-4-perform-time-calibration-with-chronos)
+- [Step 5: Save the Calibrated Tree](#step-5-save-the-calibrated-tree)
+- [Step 6: Plot and Save the Timetree](#step-6-plot-and-save-the-timetree)
 
 There are several ways of obtaining a time-calibrated tree from
 molecular data. More often than not, they involve the use of
@@ -66,7 +68,7 @@ Let’s say we have a tree like the one portrayed below:
 
 <div class="figure" style="text-align: center">
 
-<img src="tmp/phylogram.png" alt="*Fig. 1.* Phylogram depicting a complex of four species (Spp. A-D) and their outgroup, Sp. 0" width="80%" />
+<img src="tmp/phylogram.png" alt="*Fig. 1.* Phylogram depicting a complex of four species (Spp. A-D) and their outgroup, Sp. 0" width="50%" />
 <p class="caption">
 *Fig. 1.* Phylogram depicting a complex of four species (Spp. A-D) and
 their outgroup, Sp. 0
@@ -104,7 +106,7 @@ simple tree, we will use the following calibration point:
 
 <div class="figure" style="text-align: center">
 
-<img src="tmp/phylogram_2.png" alt="**Fig. 2.** Calibration points for this example" width="80%" />
+<img src="tmp/phylogram_2.png" alt="**Fig. 2.** Calibration points for this example" width="50%" />
 <p class="caption">
 **Fig. 2.** Calibration points for this example
 </p>
@@ -272,7 +274,7 @@ And the resulting tree should look something like this:
 
 <div class="figure" style="text-align: center">
 
-<img src="tmp/timetree.png" alt="**Fig. 3.** Calibrated timetree after following this guide" width="80%" />
+<img src="tmp/timetree.png" alt="**Fig. 3.** Calibrated timetree after following this guide" width="50%" />
 <p class="caption">
 **Fig. 3.** Calibrated timetree after following this guide
 </p>
