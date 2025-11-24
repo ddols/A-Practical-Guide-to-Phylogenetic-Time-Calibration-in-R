@@ -103,14 +103,11 @@ ingroup_species <- my_tree$tip.label[!my_tree$tip.label %in% outgroup_species]}
 This is the core of the calibration setup. For this guide’s fairly
 simple tree, we will use the following calibration point:
 
-<div class="figure" style="text-align: center">
-
-<img src="tmp/phylogram_2.png" alt="**Fig. 2.** Calibration points for this example" width="50%" />
-<p class="caption">
-**Fig. 2.** Calibration points for this example
+<p align="center">
+  <img src="tmp/phylogram_2.png" width="50%">
+  <br>
+  <em><b>Fig. 2.</b> Calibration points for this example</em>
 </p>
-
-</div>
 
 Here, We define which nodes (**4-6**) in the tree we have age information
 for.
@@ -271,15 +268,10 @@ dev.off()
 
 And the resulting tree should look something like this:
 
-<div class="figure" style="text-align: center">
 
-<img src="tmp/timetree.png" alt="**Fig. 3.** Calibrated timetree after following this guide" width="50%" />
-<p class="caption">
-**Fig. 3.** Calibrated timetree after following this guide
+<p align="center">
+  <img src="tmp/timetree.png" width="50%">
+  <br>
+  <em><b>Fig. 3.</b> Calibrated timetree after following this guide</em>
 </p>
-
-</div>
-
-
-
 
