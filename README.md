@@ -65,9 +65,9 @@ Let’s say we have a tree like the one portrayed below:
 
 <div class="figure" style="text-align: center">
 
-<img src="tmp/phylogram.png" alt="**Fig. 1.** Phylogram depicting a complex of four species (Spp. A-D) and their outgroup, Sp. 0" width="80%" />
+<img src="tmp/phylogram.png" alt="*Fig. 1.* Phylogram depicting a complex of four species (Spp. A-D) and their outgroup, Sp. 0" width="80%" />
 <p class="caption">
-**Fig. 1.** Phylogram depicting a complex of four species (Spp. A-D) and
+*Fig. 1.* Phylogram depicting a complex of four species (Spp. A-D) and
 their outgroup, Sp. 0
 </p>
 
