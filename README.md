@@ -76,10 +76,10 @@ their outgroup, Sp. 0
 
 </div>
 
-The script reads the tree from a Newick file (*1*). We will then define
+The script reads the tree from a Newick file (**1**). We will then define
 the `outgroup_species` variable that will store the species we consider
-to be the *outgroup* within a vector (*2*). And subsequently root the
-tree using said outgroup (*3*).
+to be the *outgroup* within a vector (**2**). And subsequently root the
+tree using said outgroup (**3**).
 
 ``` r
 #### 1. Read the Newick tree file #####
@@ -280,4 +280,5 @@ And the resulting tree should look something like this:
 </p>
 
 </div>
+
 
