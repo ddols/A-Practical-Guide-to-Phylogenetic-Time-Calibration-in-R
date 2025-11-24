@@ -66,15 +66,14 @@ setwd("path/to/your/working_directory")
 
 Let’s say we have a tree like the one portrayed below:
 
-<div class="figure" style="text-align: center">
-
-<img src="tmp/phylogram.png" alt="**Fig. 1.** Phylogram depicting a complex of four species (Spp. A-D) and their outgroup, Sp. 0" width="50%" />
-<p class="caption">
-**Fig. 1.** Phylogram depicting a complex of four species (Spp. A-D) and
-their outgroup, Sp. 0
+    
+<p align="center">
+  <img src="tmp/phylogram.png" width="50%">
+  <br>
+  <em><b>Fig. 1.</b> Phylogram depicting a complex of four species (Spp. A-D) and their outgroup, Sp. 0</em>
 </p>
 
-</div>
+  
 
 The script reads the tree from a Newick file (**1**). We will then define
 the `outgroup_species` variable that will store the species we consider
@@ -280,6 +279,7 @@ And the resulting tree should look something like this:
 </p>
 
 </div>
+
 
 
 
