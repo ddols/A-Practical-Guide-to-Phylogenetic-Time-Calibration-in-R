@@ -4,7 +4,7 @@ Time-Calibration in R
 
 - [Requirements](#requirements)
 - [Step 1: Load Library and Set Working Directory](###step-1-load-library-and-set-working-directory)
-
+- [Step 2: Load and Re-root the Phylogenetic Tree](###step-2-load-and-re-root-the-phylogenetic-tree)
 
 There are several ways of obtaining a time-calibrated tree from
 molecular data. More often than not, they involve the use of
