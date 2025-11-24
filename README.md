@@ -3,8 +3,9 @@ Time-Calibration in R
 ================
 
 - [Requirements](#requirements)
-- [Step 1: Load Library and Set Working Directory](###step-1-load-library-and-set-working-directory)
-- [Step 2: Load and Re-root the Phylogenetic Tree](###step-2-load-and-re-root-the-phylogenetic-tree)
+- [Step 1: Load Library and Set Working Directory](#step-1-load-library-and-set-working-directory)
+- [Step 2: Load and Re-root the Phylogenetic Tree](#step-2-load-and-re-root-the-phylogenetic-tree)
+- [Step 4: Perform Time-Calibration with `chronos`](#step-4-perform-time-calibration-with-chronos)
 
 There are several ways of obtaining a time-calibrated tree from
 molecular data. More often than not, they involve the use of
@@ -43,7 +44,7 @@ running this command in your R console:
 install.packages("ape")
 ```
 
-### Step 1: Load Library and Set Working Directory
+# Step 1: Load Library and Set Working Directory
 
 First, we load the `ape` library, which contains all the necessary
 functions.
@@ -59,7 +60,7 @@ directory. If not, you can set it manually here.
 setwd("path/to/your/working_directory")
 ```
 
-### Step 2: Load and Re-root the Phylogenetic Tree
+# Step 2: Load and Re-root the Phylogenetic Tree
 
 Let’s say we have a tree like the one portrayed below:
 
@@ -96,7 +97,7 @@ my_tree <- root(my_tree, outgroup = outgroup_species, resolve.root = TRUE)
 ingroup_species <- my_tree$tip.label[!my_tree$tip.label %in% outgroup_species]}
 ```
 
-### Step 3: Define Calibration Points and Age Constraints
+# Step 3: Define Calibration Points and Age Constraints
 
 This is the core of the calibration setup. For this guide’s fairly
 simple tree, we will use the following calibration point:
@@ -175,7 +176,7 @@ lists.
 mycalibration <- data.frame(node,age.min,age.max,soft.bound)
 ```
 
-### Step 4: Perform Time-Calibration with `chronos`
+# Step 4: Perform Time-Calibration with `chronos`
 
 The `chronos()` function takes the original tree and the calibration
 data frame and estimates branch lengths in units of time, creating an
@@ -218,7 +219,7 @@ Here is a breakdown of the arguments given to `chronos`:
   to find the best possible set of branch lengths that fit both the
   original data and your calibration constraints.
 
-### Step 5: Save the Calibrated Tree
+# Step 5: Save the Calibrated Tree
 
 The resulting timetree object is saved in both Newick (`.tree`) and
 Nexus (`.nex`) formats for use in other phylogenetic software (like
@@ -230,7 +231,7 @@ write.tree(mytimetree, file="your_calibrated_tree.tree")     # Newick format
 write.tree(mytimetree, file="your_calibrated_tree.nex")      # Nexus format
 ```
 
-### Step 6: Plot and Save the Timetree
+# Step 6: Plot and Save the Timetree
 
 Finally, the script generates a plot of the timetree and saves it as a
 PDF. It includes custom code to draw a properly scaled time axis at the
