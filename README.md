@@ -103,7 +103,7 @@ simple tree, we will use the following calibration point:
 
 <div class="figure" style="text-align: center">
 
-<img src="phylogram_2.png" alt="**Fig. 2.** Calibration points for this example" width="80%" />
+<img src="tmp/phylogram_2.png" alt="**Fig. 2.** Calibration points for this example" width="80%" />
 <p class="caption">
 **Fig. 2.** Calibration points for this example
 </p>
@@ -271,7 +271,7 @@ And the resulting tree should look something like this:
 
 <div class="figure" style="text-align: center">
 
-<img src="timetree.png" alt="**Fig. 3.** Calibrated timetree after following this guide" width="80%" />
+<img src="tmp/timetree.png" alt="**Fig. 3.** Calibrated timetree after following this guide" width="80%" />
 <p class="caption">
 **Fig. 3.** Calibrated timetree after following this guide
 </p>
