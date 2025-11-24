@@ -113,7 +113,7 @@ simple tree, we will use the following calibration point:
 
 </div>
 
-Here, We define which nodes (*4-6*) in the tree we have age information
+Here, We define which nodes (**4-6**) in the tree we have age information
 for.
 
 - `getMRCA()`: This function finds the node number of the **M**ost
@@ -280,5 +280,6 @@ And the resulting tree should look something like this:
 </p>
 
 </div>
+
 
 
