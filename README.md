@@ -23,7 +23,7 @@ illustrate one of the multiple ways a time-calibrated tree may be
 obtained and is beginner-friendly.
 
 Here, we will write a simple `R` script to perform a time-calibration
-analysis on a phylogenetic tree. The script will take a Newick tree
+analysis on a phylogenetic tree using the `chronos` function. The script will take a Newick tree
 file, re-root it using a specified outgroup, set multiple node age
 constraints based on known data (e.g., fossils, geological events), and
 generate an ultrametric timetree.
@@ -274,4 +274,5 @@ And the resulting tree should look something like this:
   <br>
   <em><b>Fig. 3.</b> Calibrated timetree after following this guide</em>
 </p>
+
 
